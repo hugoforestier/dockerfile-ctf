@@ -8,6 +8,12 @@
 
 > Dockerfile to use during ctfs
 
+## What's inside ?
+
+```
+Basic ctf tools, test the dockerfile to know more 👀
+```
+
 ## Install
 
 ```sh
