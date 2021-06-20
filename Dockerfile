@@ -1,10 +1,3 @@
-# docker build -t docker-ctf .
-# If using Windows
-      # docker run --rm -v %cd%:/pwd --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -d --name ctf -i docker-ctf
-# If using Linux    
-      # docker run --rm -v $PWD:/pwd --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -d --name ctf -i docker-ctf
-# docker exec -it container-id /bin/bash
-
 FROM ubuntu:latest
 ENV LC_CTYPE C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
